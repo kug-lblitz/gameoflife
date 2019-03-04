@@ -39,8 +39,6 @@ int main(int argc, char** argv) {
 	}
 
 	char live = 'O', dead = ' ';
-
-	cout << x << dead << y << endl;
 	char out[y][x+1], snp[y][x+1];
 	srand(time(NULL));                          // rand() seed
 	for (long int i = 0; i < y; i++) {          // iterate through 1st dimension
